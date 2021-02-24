@@ -12,7 +12,7 @@ function validateUser(req, res, next)
             res.status(400).json({userRegistered: true, errorMessage: 'User has already been registered'})
         }
     })
-    .catch(err => console.log(err))
+    .catch(err => res.status(500).json({error: 'Could retriveve user', errorMessage: err}))
 
 }
 
