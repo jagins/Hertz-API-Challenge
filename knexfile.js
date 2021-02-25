@@ -1,5 +1,4 @@
 require('dotenv').config()
-
 module.exports = {
 
   development: {
@@ -23,6 +22,8 @@ module.exports = {
         }
     }
   },
+
+
   production: {
     client: 'pg',
     connection: process.env.DATABASE_URL,
@@ -37,5 +38,4 @@ module.exports = {
       directory: './data/seeds'
     }
   }
-
 };
