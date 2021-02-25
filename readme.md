@@ -39,3 +39,37 @@ Users {
   userId: integer notNullable unique
 }
 ```
+
+## Post Request sample input
+---
+```
+{
+  userId: 12345
+}
+```
+## Post Request sample output
+---
+```
+{
+  userRegistered: true
+}
+```
+
+## Get Request sample output
+---
+```
+[
+  {
+    "userId": 12345
+  },
+  {
+    "userId": 12346
+  },
+  {
+    "userId": 12347
+  },
+  {
+    "userId": 12348
+  }
+]
+```
