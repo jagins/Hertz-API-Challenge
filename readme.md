@@ -1,6 +1,6 @@
 # API Documentation
 
-#### Backend deployed [here](ec2-34-195-186-223.compute-1.amazonaws.com) on Heroku <br>
+#### Backend deployed [here](https://hertz-api-challenge.herokuapp.com/) on Heroku <br>
 
 ## Getting started
 
