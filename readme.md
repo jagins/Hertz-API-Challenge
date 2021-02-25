@@ -36,6 +36,6 @@ I chose to create a Node/Express REST API beacause:
 ```
 Users {
   id: integer Primary key
-  userId: integer
+  userId: integer notNullable unique
 }
 ```
