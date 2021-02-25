@@ -1,4 +1,3 @@
-require('dotenv').config()
 module.exports = {
 
   development: {
@@ -27,7 +26,7 @@ module.exports = {
   production: {
     client: 'pg',
     ssl: true,
-    connection: `${process.env.DATABASE_URL}?sslmode=require&ssl=true`,
+    connection: process.env.DATABASE_URL,
     pool: {
       min: 2,
       max: 10
